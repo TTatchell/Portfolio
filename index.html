@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+
+
+    <!-- FAVICON HERE, NEED TO CHECK IF WORKING-->
+    <link rel="favicon" href="./images/favicon.png" type="image/png">
+
+    <script src="script.js"></script>
+
     <title>Portfolio</title>
 </head>
 
@@ -12,42 +20,103 @@
 
 <body>
 
-    
-    <script src="script.js"></script>
-
     <!-- Greeting with link to scroll down-->
+    <div class="greetingPage">
+        <div class="movingBackgroundImage">
+            <!-- Code to insert moving background image-->
+            <!-- Waiting for approval to use https://codepen.io/saransh/pen/BKJun-->
 
-    <div class="Greeting">
-        <h2>Hi there,</h2>
-        <h1>I'm Tim.</h1>
-        <h3>Your one stop shop for a full-stack developer</h3>
-        <h4>*Aspiring ;)</h4>
-    </div>
+
+            <!--
+            <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+            <div id='title'>
+            <br>
+            </div>
+        -->
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="greeting">
+            <h2>Hi there,</h2>
+            <h1 id="name">I'm Tim.</h1>
+            <h3>Your one stop shop for a full-stack developer</h3>
+            <h4>*Aspiring ;)</h4>
+        </div>
+    </div>  
 
     <!-- Navigation Bar-->
 
-    <div class="navigationBar">
+    <nav class="navigationBar">
         <!-- This will stick to top of screen when scrolling down-->
 
-        <a class="active" href=#home>Home</a>
-        <!-- This will scroll up to the top-->
-
+        <!--These are my old links <a class="active" href=#home>Home</a>
         <a class="about" href=#about >About</a>
-        <!-- This will scroll down to the next section-->
-
         <a href="portfolio">Portfolio</a>
-
         <a href="blog">Blog</a>
+        <a href="contact">Contact</a>-->
 
-        <a href="contact">Contact</a>
-    </div>
+
+
+        <div class="page-link active" dest="home">Home</div>
+        <div class="page-link" dest="about">About</div>
+        <div class="page-link" dest="blog">Blog</div>
+        <div class="page-link" dest="contact">Contact</div>
+    </nav>
     
 
     <!-- Header including Picture, Name, Title, Location -->
 
-    <div class="header">
+    <div class="about">
 
-        <img src="./profilePic.jpg" alt="Photo of Tim">
+        <h1 id='aboutlabel'>A little about me</h1>
+
+        <!-- One senctence description-->
+
+        <div class="oneSentenceDesc">This is a one sentence description of myself</div>
+
+        <img id="me" src="./images/profilePic.jpg" alt="Photo of Tim">
+
+
+        <!-- A few icons with perks-->
+        <div class="iconBlock">
+            <div class="iconPack">
+                <img src="./images/code.png" alt="Code Icon">
+                <div class="iconLabel">Bi-Lingual</div>
+                <div class="iconText">I know more than 1 language.</div>
+            </div>
+
+            <div class="iconPack">
+                <img src="./images/checklist.png" alt="Task Orientated Icon">
+                <div class="iconLabel">Task Orientated</div>
+                <div class="iconText">I can do things and stuff.</div>
+            </div>
+
+            <div class="iconPack">
+                <img src="./images/security.png" alt="Passion Icon">
+                <div class="iconLabel">Passionate</div>
+                <div class="iconText">I like software engineering.</div>
+            </div>
+
+            <div class="iconPack">
+                <img src="./images/stopwatch.png" alt="Fast Icon">
+                <div class="iconLabel">Fast Learning</div>
+                <div class="iconText">Forget machine learning, I'll learn it.</div>
+            </div>
+        </div>  
+
+
+        
     </div>
 
     <!-- Content including a short desc of myself, interests,-->
@@ -55,6 +124,11 @@
     <!-- Contact Form -->
 
     <!-- Footer -->
+    <div class="footerBlock">
+        <div class="creditHeading">Credits to:</div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx">xnimrodx</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div>Favicon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
+    </div>
 </body>
 </html>
