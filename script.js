@@ -11,13 +11,12 @@
 //Link highlighting for nav menu because I'm using div buttons through JS
 //Event handlers for the buttons
 
-function highlightNavButton() {
-    console.log("Hovered!");
-    document.getElementById("navBut1")["background.color"] = "red";
-    console.log("We got this far");
-    //document.getElementsByClassName("navButton").background.color = "245, 245, 245";
-    
-
-
+function highlightNavButton(button) {
+    document.getElementById(button).style.backgroundColor = "whitesmoke";
+    document.getElementById(button).style.color = "#21252b";
 }
 
+function mouseoutNavButton(button) {
+    document.getElementById(button).style.backgroundColor = "#21252b";
+    document.getElementById(button).style.color = "whitesmoke";
+}

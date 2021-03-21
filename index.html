@@ -10,31 +10,26 @@
 
     <!-- FAVICON HERE, NEED TO CHECK IF WORKING-->
     <link rel="favicon" href="./images/favicon.png" type="image/png">
-
     <script src="script.js"></script>
-
     <title>Portfolio</title>
 </head>
 
 
-
 <body>
-
 
     <!-- Navigation Bar-->
     <div class="navigationBar">
 
-        <a id="navBut1" href="home" onmouseover=highlightNavButton()>Home</a>
-        <a href="about" onmouseover="highlightNavButton">About</a>
-        <a href="portfolio" onmouseover="highlightNavButton">Portfolio</a>
-        <a href="blog" onmouseover="highlightNavButton">Blog</a>
-        <a href="contact" onmouseover="highlightNavButton">Contact</a>
+        <a id="navBut1" href="#topOfPage" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Home</a>
+        <a id="navBut2" href="#about" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>About</a>
+        <a id="navBut3" href="#portfolio" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Portfolio</a>
+        <a id="navBut4" href="./blog.html" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Blog</a>
+        <a id="navBut5" href="./contact.html" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Contact</a>
         
     </div>
 
 
-    <!-- Greeting with link to scroll down-->
-    <div class="greetingPage">
+    <div class="greetingPage" id="topOfPage">
         <div class="movingBackgroundImage">
             <!-- Code to insert moving background image-->
             <!-- Waiting for approval to use https://codepen.io/saransh/pen/BKJun-->
@@ -55,17 +50,12 @@
         </div>
     </div>  
 
-    
-    
-
     <!-- Header including Picture, Name, Title, Location -->
-
-    <div class="about">
+    <div class="about" id="about">
 
         <h1 id='aboutlabel'>A little about me</h1>
 
         <!-- One senctence description-->
-
         <div class="oneSentenceDesc">This is a one sentence description of myself</div>
 
         <img id="me" src="./images/profilePic.jpg" alt="Photo of Tim">
@@ -102,8 +92,8 @@
         
     </div>
 
-    <!-- Content including a short desc of myself, interests,-->
-    <div class="contentBlock">
+    <!-- Content including a short desc of myself, interests, PREVIOUS EXPERIENCES TOO-->
+    <div id="portfolio">
         <p>
             This will include, a desc of my personal life, interests,
             This will include, a desc of my personal life, interests,
@@ -130,8 +120,6 @@
            
         
     </div>
-
-    <!-- Contact Form -->
 
     <!-- Footer -->
     <div class="footerBlock">
