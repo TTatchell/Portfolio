@@ -5,8 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- FAVICON HERE, NEED TO CHECK IF WORKING-->
+    <link rel="favicon" href="./images/favicon.png" type="image/png">
+    <script src="script.js"></script>
 </head>
+
+
+
 <body>
+
+    <!-- Navigation Bar-->
+    <div class="navigationBar">
+
+        <a id="navBut1" href="./index.html" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Home</a>
+        <a id="navBut2" href="./index.html#about" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>About</a>
+        <a id="navBut3" href="./index.html#portfolio" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Portfolio</a>
+        <a id="navBut4" href="#blogHeader" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Blog</a>
+        <a id="navBut5" href="./contact.html" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Contact</a>
+        
+    </div>
+
+     <!-- Heading for blog-->
+
+     <div id="blogHeader">
+        <h1>Blog</h1>
+    </div>
     
 </body>
 </html>

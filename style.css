@@ -4,7 +4,7 @@ body {
 }
 
 /******************************************************************************************/
-.greetingPage {
+#greetingPage {
   background-color: #282c34;
   display: grid;
   grid-template-columns: auto;
@@ -14,12 +14,12 @@ body {
   height:100vh;
 }
 
-.greeting {
+#greeting {
   color: whitesmoke;
 }
 
 /******************************************************************************************/
-.navigationBar {
+#navigationBar {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   grid-template-rows: auto;
@@ -37,7 +37,7 @@ body {
   width: 100%;
 }
 
-.navigationBar a {
+#navigationBar a {
   display: inline-grid;
   float: left;
   background-color: #21252b;
@@ -48,15 +48,16 @@ body {
 }
 
 /******************************************************************************************/
-.about {
-  color:#0e1111;
-  background-color: whitesmoke;
+#about {
   
   margin-top: 30px;
+  color:#21252b;
+  background-color: whitesmoke;
+  
   text-align: center;
 }
 
-.aboutLabel {
+#aboutLabel {
   text-align: center;
 }
 #me {
@@ -68,7 +69,7 @@ body {
   border-radius: 10px
 }
 
-.iconBlock {
+#iconBlock {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto;
@@ -97,7 +98,7 @@ body {
 
 /******************************************************************************************/
 
-.contentBlock {
+#portfolio {
   border: 2px solid #21252b;
 }
 
@@ -105,7 +106,7 @@ body {
 /******************************************************************************************/
 
 
-.footerBlock {
+#footerBlock {
   background-color: #21252b;
   color: whitesmoke;
 }
