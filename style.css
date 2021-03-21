@@ -1,42 +1,71 @@
 body {
-  background-color: #282c34;
+  background-color: whitesmoke;
+
 }
 
 /******************************************************************************************/
 .greetingPage {
+  background-color: #282c34;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   grid-gap: 20px;
   text-align: center;
+  height:100vh;
 }
 
 .greeting {
-  color: white;
+  color: whitesmoke;
 }
 
 /******************************************************************************************/
 .navigationBar {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   grid-template-rows: auto;
   grid-gap: 20px;
+  /*background-color: #21252b;*/
+  height: 50px;
+  color:whitesmoke;
+  text-align: center;
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+
+.navigationBar a {
+  display: inline-grid;
+  float: left;
   background-color: #21252b;
-  color:whitesmoke;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-
-
-body > div > nav > div {
-  color:whitesmoke;
-}
+/*.navbar a:hover {
+  background: whitesmoke;
+  color: #21252b;
+}*/
 /******************************************************************************************/
 .about {
-  color:whitesmoke;
+  margin-top: 30px;
+  color:#0e1111;
+  background-color: whitesmoke;
+  
+  text-align: center;
+}
+
+.aboutLabel {
+  text-align: center;
 }
 #me {
   max-width: 25%;
   height: auto;
+      
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px
 }
 
 .iconBlock {
@@ -66,10 +95,20 @@ body > div > nav > div {
   
 }
 
+/******************************************************************************************/
+
+.contentBlock {
+  border: 2px solid #21252b;
+}
+
 
 /******************************************************************************************/
 
 
+.footerBlock {
+  background-color: #21252b;
+  color: whitesmoke;
+}
 
 
 
@@ -96,8 +135,7 @@ body > div > nav > div {
 
 
 
-
-
+/*
 .movingBackgroundImage {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
@@ -181,7 +219,8 @@ body > div > nav > div {
       transform: translateY(0px);
     }
     to {
-      transform: 
-      ;
+      transform: translateY(-2000px);
     }
   }
+
+  */
