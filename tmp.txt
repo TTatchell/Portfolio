@@ -1,0 +1,28 @@
+GREETING PAGE
+
+get rid of aspriring
+
+
+ABOUT PAGE
+
+First year software engineering aiming big
+
+Fluencies
+Able to accommodate for JavaScript, CSS, HTML & more to come
+
+Appealing Designs
+Full aesthetic appeal for Front-End Development through minute attention to detail
+
+Concrete Logic
+Strong foundation dealing with challenging situations
+
+Quick Skilled 
+Fast paced results through flexability in a challenging environment
+
+
+
+
+A first-year software engineer, I came into my course with predetermined knowledge on languages far advancing what was expected of me. Before starting my career as a software engineer, I had already studied Python in high school (topping the HSC Software Design class). 
+As time goes by, I will insert myself even more thoroughly into any role and gather as much knowledge as possible during my career. I have studied the inner workings of computers for a very long time, beginning in 2012 when I learnt to modify Minecraft on a laptop given to me and create simple batch files, fast forward to present day when I completed one of my first big design projects being this website. More information on this can be found via my blog post. 
+Over my years, I have built multiple desktop computers from scratch, completed work experience in IT, topped the computer classes for the final 4 years of schooling and now have begun studying software engineering as something more than my passion… My future.
+To truly excel at something, I believe you must have a fire in your stomach, to feed your passion for results. I excel at software engineering simply because I love it. I love the challenge it provides, however like other professions every position has its seemingly unachievable goals. I am human. I am no robot. So, with that in mind even building this website from the bottom up was challenging. I had eureka moments and unproductive moments in which I was stuck in one section for extended periods until I eventually solved the riddle. But solved it I did, proving my desire to overcome anything thrown at me. 
