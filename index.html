@@ -23,24 +23,16 @@
         <a id="navBut1" href="#greetingPage" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Home</a>
         <a id="navBut2" href="#about" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>About</a>
         <a id="navBut3" href="#portfolio" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Portfolio</a>
+        <a id="navBut5" href="#contactBlock" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Contact</a>
         <a id="navBut4" href="./blog.html" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Blog</a>
-        <a id="navBut5" href="./contact.html" onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Contact</a>
         
     </div>
 
-
+    <!-- Short full page greeting-->
     <div id="greetingPage">
         <div class="movingBackgroundImage">
             <!-- Code to insert moving background image-->
-            <!-- Waiting for approval to use https://codepen.io/saransh/pen/BKJun-->
             
-            <div id='stars'></div>
-            <div id='stars2'></div>
-            <div id='stars3'></div>
-            <div id='title'>
-            <br>
-            </div>
-
         </div>
         <div id="greeting">
             <h2>Hi there,</h2>
@@ -54,7 +46,7 @@
     <div id="about">
         <br><br><br>
 
-        <h1 id='aboutlabel'>A little about me</h1>
+        <h1 id='aboutlabel' >A little about me</h1>
         <br><br>
 
         <!-- One senctence description-->
@@ -133,19 +125,25 @@
 
     <!-- Contact Form -->
     <div id='contactBlock'>
+        <br><br>
+        <h1 id='contactHeader'>
+            Get In Contact
+        </h1>
+        <br><br>
+
+
 
         <div id='contactForm'>
-            My first contact form
-            <form onsubmit='return false'></form>
-            <input type='text' placeholder='First Name' id='firstName'/>
-            <input type='text' placeholder='Last Name' id='lastName'/>
+            <form id='formId' onsubmit='return false'></form>
+            <input class='inputBox' type='text' placeholder='First Name' id='firstName'/>
+            <input class='inputBox' type='text' placeholder='Last Name' id='lastName'/>
             <br>
-            <input type='text' placeholder='Company' id='company'/>
-            <input type='email' placeholder='Email Address' id='email'/>
+            <input class='inputBox' type='text' placeholder='Company' id='company'/>
+            <input class='inputBox' type='email' placeholder='Email Address' id='email'/>
             <br><br>
-            <textarea id="message" rows="4" placeholder='Message'></textarea>
-            <br><br>
-            <button onclick='sendContact()'>Send</button>
+            <textarea class='inputBox' id="message" rows="4" placeholder='Message'></textarea>
+            <br><br><br>
+            <button id='submitButton' onclick='sendContact()' onmouseover=highlightNavButton(id) onmouseout=mouseoutNavButton(id)>Send</button>
         </div>
 
     </div>
