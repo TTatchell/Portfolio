@@ -165,15 +165,20 @@ body {
 
 .creditHeading {
   margin-left: 20px;
-  
 }
 
 #credit1, #credit2 {
   margin-left: 20px;
 }
 
+.linkColor{
+  color: whitesmoke;
+}
+
 #backToTop {
   margin-left: 20px;
+  color: whitesmoke;
+  font-weight: bold;
 }
 
 /******************************************************************************************/
@@ -181,17 +186,20 @@ body {
 #blogHeader {
   margin-top:60px;
   text-align: center;
+  color: whitesmoke;
 }
 
 .blogBlock {
   
   border: #21252b solid 2px;
+  background-color: whitesmoke;
 }
 
 .blogHeader {
   margin-top: 20px;
   font-size: x-large;
   text-align: center;
+  
 }
 
 #blogImg {
